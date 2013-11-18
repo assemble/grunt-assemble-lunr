@@ -34,5 +34,12 @@
     "site generator",
     "site builder",
     "grunt"
-  ]
+  ],
+  "dependencies": {
+    "lunr": "~0.4.2",
+    "lodash": "~2.3.0"
+  },
+  "devDependencies": {
+    "cheerio": "~0.12.4"
+  }
 }
