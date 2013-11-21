@@ -1,7 +1,7 @@
 {
   "name": "assemble-contrib-lunr",
   "description": "Assemble plugin for creating a search engine within your static site using lunr.js.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://assemble.io",
   "author": {
     "name": "Brian Woodward",
