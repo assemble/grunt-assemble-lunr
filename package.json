@@ -37,9 +37,7 @@
   ],
   "dependencies": {
     "lunr": "~0.4.2",
-    "lodash": "~2.3.0"
-  },
-  "devDependencies": {
+    "lodash": "~2.3.0",
     "cheerio": "~0.12.4"
   }
 }
