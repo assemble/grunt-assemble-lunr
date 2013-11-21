@@ -10,10 +10,15 @@
 * @return {[type]} [description]
 */
 
-var _ = require('lodash');
-var lunr = require('lunr');
-var cheerio = require('cheerio');
+// node libs
+var path = require('path');
 var fs = require('fs');
+
+// external libs
+var cheerio = require('cheerio');
+var lunr = require('lunr');
+var _ = require('lodash');
+
 
 var idx = lunr(function() {
   this.ref('url');
@@ -53,7 +58,7 @@ module.exports = function(params, callback) {
 
   var opts = params.assemble.options;
   opts.lunr = opts.lunr || {
-    dataPath: './search_index.json'
+    dataPath: path.join(process.cwd(), 'search_index.json')
   };
 
   // call before each page is rendered to get
