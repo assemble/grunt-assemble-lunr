@@ -1,14 +1,9 @@
 /**
-* Assemble Contrib Plugin: Lunr
-* https://github.com/assemble/assemble-contrib-lunr
-*
-* Copyright (c) 2013 Brian Woodward
-* @author: https://github.com/doowb
-*
-* @param {[type]} params [description]
-* @param {Function} callback [description]
-* @return {[type]} [description]
-*/
+ * Assemble <http://assemble.io>
+ *
+ * Copyright (c) 2014 Jon Schlinkert and Brian Woodward, contributors
+ * Licensed under the MIT License (MIT).
+ */
 
 // node libs
 var path = require('path');

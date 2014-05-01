@@ -1,34 +1,57 @@
-# assemble-contrib-lunr [![NPM version](https://badge.fury.io/js/assemble-contrib-lunr.png)](http://badge.fury.io/js/assemble-contrib-lunr)  [![Build Status](true.png)](true)
+# assemble-contrib-lunr [![NPM version](https://badge.fury.io/js/assemble-contrib-lunr.png)](http://badge.fury.io/js/assemble-contrib-lunr)
 
-> Assemble plugin for creating a search engine within your static site using lunr.js.
+> Assemble plugin for adding search capabilities to your static site, with lunr.js.
 
-## Quick start
+## Install
+Install with [npm](npmjs.org):
 
-The following quick start options are available:
+```bash
+npm i assemble-contrib-lunr --save
+```
 
-* `npm install assemble-contrib-lunr --save`.
-* Install with [Bower](http://bower.io): `bower install assemble-contrib-lunr`.
-* Clone the repo: `git clone https://github.com/assemble/assemble-contrib-lunr.git`.
-* [Download the latest release](https://github.com/assemble/assemble-contrib-lunr/archive/master.zip).
+
+## Other Assemble plugins
+Here are some related projects you might be interested in from the [Assemble](http://assemble.io) core team.
+
++ [assemble-plugin-blog](https://api.github.com/repos/assemble/assemble-plugin-blog): Assemble plugin for generating blog pages for posts and archive list pages. 
++ [assemble-plugin-drafts](https://api.github.com/repos/assemble/assemble-plugin-drafts): Assemble plugin (v0.5.0) for preventing drafts from being rendered. 
++ [assemble-plugin-pagination](https://api.github.com/repos/assemble/assemble-plugin-pagination): WIP this plugin isn't ready for use! 
++ [assemble-plugin-rss](https://api.github.com/repos/assemble/assemble-plugin-rss): NOT Published yet! This plugin isn't ready for prime time! Plugin for creating RSS feeds with Assemble, the static site generator for Node.js, Grunt.js and Yeoman.  
++ [generator-plugin](https://api.github.com/repos/assemble/generator-plugin): Yeoman generator for Assemble plugins.  
++ [grunt-init-assemble-plugin](https://api.github.com/repos/assemble/grunt-init-assemble-plugin): Generate a plugin for Assemble. 
++ [plugins](https://api.github.com/repos/assemble/plugins): Collection of contrib plugins maintained by the Assemble core team. 
++ [assemble-contrib-lunr-examples](https://api.github.com/repos/assemble/assemble-contrib-lunr-examples): Usages examples for assemble-contrib-lunr, a search plugin for Assemble. 
++ [assemble-contrib-markdown](https://api.github.com/repos/assemble/assemble-contrib-markdown): HEADS UP! This isn't ready for prime time! Convert markdown files to HTML using marked.js. This plugin is an alternative to Assemble's markdown Handlebars helpers. Both are useful in different scenarios. 
++ [assemble-contrib-navigation](https://api.github.com/repos/assemble/assemble-contrib-navigation): Assemble plugin for automatically generating Bootstrap-style side navigation.  
++ [assemble-contrib-permalinks](https://api.github.com/repos/assemble/assemble-contrib-permalinks): Permalinks plugin for Assemble, the static site generator for Grunt.js and Yeoman. This plugin enables powerful and configurable URI replacement patterns, presets, uses Moment.js for parsing dates, and much more. 
++ [assemble-contrib-sitemap](https://api.github.com/repos/assemble/assemble-contrib-sitemap): Sitemap generator plugin for Assemble 
++ [assemble-contrib-toc](https://api.github.com/repos/assemble/assemble-contrib-toc): Create a table of contents in the generated HTML, using Cheerio.js 
++ [assemble-contrib-toc-example](https://api.github.com/repos/assemble/assemble-contrib-toc-example): Example for generating a Table of Contents using Assemble. 
++ [assemble-contrib-wordcount](https://api.github.com/repos/assemble/assemble-contrib-wordcount): Assemble plugin for displaying a word-count on blog posts or pages. 
+
+Visit [assemble.io/plugins](http:/assemble.io/plugins/) for more information about [Assemble](http:/assemble.io/) plugins.
 
 
 ## Contributing
+Find a bug? Have a feature request? Please [create an Issue](https://github.com/assemble/assemble-contrib-lunr/issues).
 
-Please read through the [contributing guidelines](CONTRIBUTING.md). In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](http://gruntjs.com/).
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality,
+and run `docs` in the command line to build the docs with [Verb](https://github.com/assemble/verb).
 
-Editor preferences are available in the [editor config](.editorconfig) for easy use in common text editors. Read more and download plugins at [http://editorconfig.org](http://editorconfig.org).
+Pull requests are also encouraged, and if you find this project useful please consider "starring" it to show your support! Thanks!
 
-## Release History
+## Author
 
- * 2013   v0.1.0   First commit
+**Brian Woodward**
+
++ [github/doowb](https://github.com/doowb)
++ [twitter/doowb](http://twitter.com/doowb)
+
 
 ## License
-Copyright (c) 2013 Brian Woodward
-Licensed under the [MIT license](LICENSE-MIT).
-
+Copyright (c) 2014 Brian Woodward, contributors.  
+Released under the MIT license
 
 ***
 
-Project created by [Brian Woodward](https://github.com/doowb).
-
-_This file was generated on Sun Nov 10 2013 22:27:53._
+_This file was generated by [verb-cli](https://github.com/assemble/verb-cli) on May 01, 2014._

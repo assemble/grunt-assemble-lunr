@@ -1,7 +1,7 @@
 {
   "name": "assemble-contrib-lunr",
-  "description": "Assemble plugin for creating a search engine within your static site using lunr.js.",
-  "version": "0.0.2",
+  "description": "Assemble plugin for adding search capabilities to your static site, with lunr.js.",
+  "version": "0.1.0",
   "homepage": "http://assemble.io",
   "author": {
     "name": "Brian Woodward",
@@ -29,15 +29,16 @@
   ],
   "keywords": [
     "assemble",
-    "templates",
-    "handlebars",
-    "site generator",
-    "site builder",
-    "grunt"
+    "assembleplugin",
+    "plugin",
+    "search"
   ],
   "dependencies": {
-    "lunr": "~0.4.2",
-    "lodash": "~2.3.0",
-    "cheerio": "~0.12.4"
+    "lodash": "~2.4.1",
+    "lunr": "~0.5.2",
+    "cheerio": "~0.15.0"
+  },
+  "devDependencies": {
+    "verb": "~0.2.5"
   }
 }
