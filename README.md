@@ -1,4 +1,4 @@
-# assemble-contrib-lunr [![NPM version](https://badge.fury.io/js/assemble-contrib-lunr.png)](http://badge.fury.io/js/assemble-contrib-lunr)
+# assemble-middleware-lunr [![NPM version](https://badge.fury.io/js/assemble-middleware-lunr.png)](http://badge.fury.io/js/assemble-middleware-lunr)
 
 > Assemble plugin for adding search capabilities to your static site, with lunr.js.
 
@@ -6,12 +6,12 @@
 Install with [npm](npmjs.org):
 
 ```bash
-npm i assemble-contrib-lunr --save
+npm i assemble-middleware-lunr --save
 ```
 
 
 ## Contributing
-Find a bug? Have a feature request? Please [create an Issue](https://github.com/assemble/assemble-contrib-lunr/issues).
+Find a bug? Have a feature request? Please [create an Issue](https://github.com/assemble/assemble-middleware-lunr/issues).
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality,
 and run `docs` in the command line to build the docs with [Verb](https://github.com/assemble/verb).
