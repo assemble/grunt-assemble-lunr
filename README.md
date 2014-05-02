@@ -2,6 +2,8 @@
 
 > Assemble plugin for adding search capabilities to your static site, with lunr.js.
 
+**Upgrade notice!** v0.2.0 or greater of this plugin depend on Assemble v0.5.0. _This plugin will not work with Assemble v0.4.0!_
+
 ## Install
 Install with [npm](npmjs.org):
 
