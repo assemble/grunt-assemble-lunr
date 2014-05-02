@@ -1,7 +1,7 @@
 {
   "name": "assemble-middleware-lunr",
   "description": "Assemble plugin for adding search capabilities to your static site, with lunr.js.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "http://assemble.io",
   "author": {
     "name": "Brian Woodward",
