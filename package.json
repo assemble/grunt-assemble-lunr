@@ -35,5 +35,17 @@
     "assembleplugin",
     "plugin",
     "search"
-  ]
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "grunt-assemble",
+        "grunt-assemble-anchors",
+        "grunt-assemble-contextual",
+        "grunt-assemble-decompress",
+        "grunt-assemble-download",
+        "grunt-assemble-lunr"
+      ]
+    }
+  }
 }
