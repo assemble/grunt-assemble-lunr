@@ -1,8 +1,8 @@
-/**
- * Assemble <http://assemble.io>
+/*!
+ * grunt-assemble-lunr <git://github.com/assemble/grunt-assemble-lunr.git>
  *
- * Copyright (c) 2014 Jon Schlinkert and Brian Woodward, contributors
- * Licensed under the MIT License (MIT).
+ * Copyright (c) 2014-2015, Brian Woodward.
+ * Licensed under the MIT License.
  */
 
 // node libs

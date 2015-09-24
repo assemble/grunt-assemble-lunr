@@ -4,7 +4,6 @@
   "version": "0.2.1",
   "homepage": "http://assemble.io",
   "author": "Brian Woodward (http://github.com/assemble)",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/assemble/grunt-assemble-lunr.git"
@@ -12,30 +11,29 @@
   "bugs": {
     "url": "https://github.com/assemble/grunt-assemble-lunr/issues"
   },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/assemble/grunt-assemble-lunr/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
   "engines": {
     "node": ">=0.8"
   },
   "scripts": {
     "test": "grunt test"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/assemble/grunt-assemble-lunr/blob/master/LICENSE-MIT"
-    }
-  ],
-  "keywords": [
-    "assemble",
-    "assembleplugin",
-    "plugin",
-    "search"
-  ],
   "dependencies": {
     "lodash": "~2.4.1",
     "lunr": "~0.5.2",
     "cheerio": "~0.15.0"
   },
-  "devDependencies": {
-    "verb": "~0.2.5"
-  }
+  "keywords": [
+    "assemble",
+    "assembleplugin",
+    "plugin",
+    "search"
+  ]
 }
